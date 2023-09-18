@@ -13,7 +13,7 @@ const Navbar = () => {
       
     return (
         <nav className="p-10 text-black">
-            <div className="text-2xl md:hidden hover:bg-gray-300 p-2 w-12 rounded" onClick={() => setOpen(!open)}>
+            <div className="text-2xl md:hidden hover:bg-purple-300 p-2 w-10 rounded" onClick={() => setOpen(!open)}>
                 {
                     open === true? <AiOutlineClose></AiOutlineClose>:<AiOutlineMenu></AiOutlineMenu>
                 }
