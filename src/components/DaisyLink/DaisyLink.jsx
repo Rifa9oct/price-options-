@@ -1,17 +1,16 @@
 import PropTypes from 'prop-types';
 
-const Link = ({route}) => {
+const DaisyLink = ({route}) => {
     return (
         <div>
-            <li className='text-xl mr-10 hover:bg-yellow-500 p-2 rounded '>
+            <li className='mr-10 hover:bg-gray-300 px-2 py-1 rounded '>
                 <a href={route.path}>{route.name}</a>
             </li>
         </div>
     );
 };
-
-Link.propTypes = {
+ DaisyLink.propTypes = {
     route: PropTypes.object
 };
 
-export default Link;
+export default DaisyLink;
