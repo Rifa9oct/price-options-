@@ -76,6 +76,7 @@ const LineChart = () => {
       ];
     return (
         <div className='my-20'>
+          <h2 className='text-4xl font-bold text-pink-800 mb-10'>Line Chart:</h2>
             <LChart width={800} height={400} data={subjectMarksData}>
                 <XAxis dataKey="name"/>
                 <YAxis/>
